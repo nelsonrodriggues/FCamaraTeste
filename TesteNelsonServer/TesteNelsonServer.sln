@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Services", "0-Services", "{0C112E78-8D22-48FE-B772-EA306279DB7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{F34E443D-B5FE-484F-A0B2-8DB1B683EF57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infra", "2-Infra", "{5515F4BF-6ACE-4E66-BF6C-A6E97588F306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteNelson.Domain", "TesteNelson.Domain\TesteNelson.Domain.csproj", "{9D2D32E6-775E-4B10-8A4E-BF522FE2C629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteNelson.Infra.Data", "TesteNelson.Infra.Data\TesteNelson.Infra.Data.csproj", "{82C6D22D-A251-4617-AB19-3792D9CF7D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteNelson.Services.REST.ClienteAPI", "TesteNelson.Services.REST.ClienteAPI\TesteNelson.Services.REST.ClienteAPI.csproj", "{ED29B6C4-471C-4149-AA52-0DC097B10ACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D2D32E6-775E-4B10-8A4E-BF522FE2C629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2D32E6-775E-4B10-8A4E-BF522FE2C629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2D32E6-775E-4B10-8A4E-BF522FE2C629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2D32E6-775E-4B10-8A4E-BF522FE2C629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C6D22D-A251-4617-AB19-3792D9CF7D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C6D22D-A251-4617-AB19-3792D9CF7D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C6D22D-A251-4617-AB19-3792D9CF7D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C6D22D-A251-4617-AB19-3792D9CF7D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED29B6C4-471C-4149-AA52-0DC097B10ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED29B6C4-471C-4149-AA52-0DC097B10ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED29B6C4-471C-4149-AA52-0DC097B10ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED29B6C4-471C-4149-AA52-0DC097B10ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D2D32E6-775E-4B10-8A4E-BF522FE2C629} = {F34E443D-B5FE-484F-A0B2-8DB1B683EF57}
+		{82C6D22D-A251-4617-AB19-3792D9CF7D88} = {5515F4BF-6ACE-4E66-BF6C-A6E97588F306}
+		{ED29B6C4-471C-4149-AA52-0DC097B10ACB} = {0C112E78-8D22-48FE-B772-EA306279DB7D}
+	EndGlobalSection
+EndGlobal
