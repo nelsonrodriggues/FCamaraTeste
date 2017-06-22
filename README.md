@@ -1,6 +1,6 @@
 # FCamaraTeste
 
-Aplicação desenvolvida com AngularJS, OAuth bearer token authentication, ASP.NET Web API 2 e ASP.NET Identity para gerar tokens e registrar usuários, SQL Server Express com ORM Entity Framework.
+Aplicação desenvolvida com AngularJS, OAuth bearer token authentication, ASP.NET Web API 2 e ASP.NET Identity para gerar tokens e registrar usuários, SQL Server Express com ORM Entity Framework e alguns conceitos de DDD.
 
 Os projetos estão separados, baixar os dois e compilar.
 
